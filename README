@@ -1,0 +1,61 @@
+AIRKinect Extension is a Native Extension for use with Adobe AIR 3.0. AIRKinect allows AIR developers to tap into the rich experience of the Microsoft Kinect SDK and push interactivity to a new level.
+
+Requirements:
+=============
+
+Adobe Flash Builder 4.6 IDE 
+Out Novemeber 29th 2011 or prerelease.adobe.com
+
+Microsoft Kinect SDK Beta 2
+http://kinectforwindows.org/
+
+Optional:
+=========
+Flash Develop | Intellij
+Support and setup can be found in forum
+
+
+Getting Started - Flash Builder 4.6:
+====================================
+
+1) Download the latest AIRKinectExtension.ane and make sure the above requirements are installed. 
+
+2) In Flash Builder, File > New > Flex Project
+
+3) Give the project a name and choose application type as Adobe AIR. Make sure the selected SDK is 4.6 or higher. Click "Next"
+
+4) No special server settings are required, click "Next"
+
+5) Under the "Native Extensions" tab, click "Add ANE" and browse to the AIRKinectExtension.ane. Select and click "Finish".
+
+6) Right click on the newly created project and select "Properties". Select "Flex Build Packaging" and tab "Native Extensions". The AIRKinectExtension should be present and check "Package" to make sure the ANE is included with your AIR Application. Click "Okay".
+
+7) Watch the demos, read the docs, give feedback and enjoy!
+
+Note from the authors:
+====================================
+Please send us demos to highlight projects using AIRKinect and provide feedback on use or create issues so we know what the community needs and is looking for. We want to empower the Flash developer to create amazing experiences and anything that will best promote this is our goal. 
+
+Updates:
+========
+
+---- November 22, 2011: Version 1 and initial checkin.
+
+Version 1 of the AIRKinect Native Extension includes:
+	1) Depth Video
+	2) RGB Video
+	3) Multiple Skeletons with 20 joint positions
+	4) Depth point mapping
+	5) RGB and Depth resolution customization
+	6) Get/Set of camera angle
+	7) Translation of joint points to virtual points
+	8) Transform smoothing parameters for Kinect
+	9) Kinect status with connect/disconnect
+
+Notes:
+With depth video at 320x340 and rgb video at 640x480, you should recieve updates at 30fps at stable for depth,rgb, and skeleton.
+As the resolution increases the frames with decrease. Because the extension runs at 30fps, it is suggestable to increase the application fps to 30fps or above for best performance. 
+
+
+
+
