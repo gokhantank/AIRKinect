@@ -10,8 +10,8 @@ Windows:
 1) Install Microsoft Kinect SDK Beta 2: http://kinectforwindows.org/
 2) That's it
 
-OSX:
-----
+OSX Lion:
+---------
 1) Install Macports: http://www.macports.org
 2) Execute the following command in Terminal: sudo port install libtool
 3) Execute the following command in Terminal: sudo port install libusb-devel +universal
